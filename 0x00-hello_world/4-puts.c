@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 
-/* This is a functionI  */
+/**
+ * main - This is a description
+ */
 int main(void)
 {
 	char var[64];
