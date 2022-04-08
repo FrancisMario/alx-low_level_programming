@@ -4,7 +4,7 @@
 
 /*
  * main: entry point for our program.
- * description: generates an random number is say's if its + or - or 0
+ * Description: generates an random number is say's if its + or - or 0
  * Returns: int
  */
 int main(void)
