@@ -5,7 +5,7 @@
  *This function prints out the following.
  *"Programming is like building a multilingual puzzle"
  */
-int main() 
+int main(void) 
 {
 	char var[64];
 
