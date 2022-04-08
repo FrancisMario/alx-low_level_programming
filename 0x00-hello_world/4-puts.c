@@ -3,6 +3,7 @@
 
 /**
  * main - This is a description
+ * Return: 0 if successful, otherwise 1
  */
 int main(void)
 {
