@@ -4,7 +4,8 @@
 
 /**
  * main - entry point for our program.
- * Returns: int
+ * Description: generates random number and sayes if it's +, -, or 0.
+ * Return: 1 if program exited on error, 0 if ended successfully.
  */
 int main(void)
 {
