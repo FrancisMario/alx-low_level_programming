@@ -3,8 +3,7 @@
 #include <stdio.h>
 
 /*
- * main: entry point for our program.
- * Description: generates an random number is say's if its + or - or 0
+ * main - entry point for our program.
  * Returns: int
  */
 int main(void)
