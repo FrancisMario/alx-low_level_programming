@@ -14,7 +14,8 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	int last_int = n % 10;
+	int last_int;
+       	last_int = n % 10;
 	char trailing_sentence[254];
 
 	if(last_int > 5){
