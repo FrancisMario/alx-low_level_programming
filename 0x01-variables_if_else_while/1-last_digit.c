@@ -11,13 +11,11 @@
 int main(void)
 {
 	int n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-
 	int last_int;
 	char trailing_sentence[254];
-	
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;	
 	last_int = n % 10;
 	
 	if(last_int > 5){
