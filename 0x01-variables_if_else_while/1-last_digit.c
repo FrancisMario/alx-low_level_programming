@@ -15,9 +15,9 @@ int main(void)
 	char trailing_sentence[254];
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;	
+	n = rand() - RAND_MAX / 2;
 	last_int = n % 10;
-	if(last_int > 5)
+	if (last_int > 5)
 	{
 		strcpy(trailing_sentence, "and is greater than 5");
 	} else if (last_int == 0)
