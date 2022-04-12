@@ -25,7 +25,8 @@ int main(void)
 		}
 		for (c = s; c <= e; ++c)
 			putchar(c);
-		putchar('n');
+		if (count == 1)
+			putchar('\n');
 	}
 	return (0);
 }
