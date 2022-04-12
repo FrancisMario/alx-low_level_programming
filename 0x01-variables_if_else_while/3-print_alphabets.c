@@ -11,10 +11,20 @@
 int main(void)
 {
 
-	char c = 'a';
+	char s = 'a';
+	char e = 'z';
+	int count = 0;
 	
-	for (c = 'a'; c <= 'z'; ++c)
-		putchar(c);
-	putchar('\n');
+	for (count = 1; count <= 2; count++)
+		if (count == 2)
+		{
+			s = 'A';
+			e = 'Z';
+		}
+		for (c = s; c <= e; ++c)
+			putchar(c);
+		putchar('\n');
+	
 	return (0);
 }
+
