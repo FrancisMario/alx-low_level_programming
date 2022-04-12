@@ -13,6 +13,7 @@ int main(void)
 
 	char s = 'a';
 	char e = 'z';
+	char c = 'a';
 	int count = 0;
 	
 	for (count = 1; count <= 2; count++)
