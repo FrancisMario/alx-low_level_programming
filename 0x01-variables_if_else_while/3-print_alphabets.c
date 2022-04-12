@@ -15,7 +15,7 @@ int main(void)
 	char e = 'z';
 	char c = 'a';
 	int count = 0;
-	
+
 	for (count = 1; count <= 2; count++)
 	{
 		if (count == 2)
@@ -25,7 +25,7 @@ int main(void)
 		}
 		for (c = s; c <= e; ++c)
 			putchar(c);
-		putchar('\n');
+		putchar('n');
 	}
 	return (0);
 }
