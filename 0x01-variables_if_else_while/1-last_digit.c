@@ -14,10 +14,12 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	int last_int;
-       	last_int = n % 10;
-	char trailing_sentence[254];
 
+	int last_int;
+	char trailing_sentence[254];
+	
+	last_int = n % 10;
+	
 	if(last_int > 5){
 		strcpy(trailing_sentence, "and is greater than 5");
 	} else if (last_int == 0){
