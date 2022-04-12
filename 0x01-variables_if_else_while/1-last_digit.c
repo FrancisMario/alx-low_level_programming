@@ -25,8 +25,8 @@ int main(void)
 		strcpy(trailing_sentence, "and is 0");
 	} else if (last_int < 6)
 	{
-		strcpy(trailing_sentence, "and is less than 6 and not 0");	
+		strcpy(trailing_sentence, "and is less than 6 and not 0");
 	}
-	printf("Last digit of %d is %d %s \n", n, last_int, trailing_sentence);
+	printf("Last digit of %d is %d %s\n", n, last_int, trailing_sentence);
 	return (0);
 }
