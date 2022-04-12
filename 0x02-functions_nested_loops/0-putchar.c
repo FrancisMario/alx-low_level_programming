@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "_putchar.c"
+#include "_putchar.h"
 /**
  * main - entry level for our program
  * Description: Prints the value "_putchar" out to stdout
