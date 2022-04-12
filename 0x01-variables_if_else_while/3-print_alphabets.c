@@ -16,6 +16,7 @@ int main(void)
 	int count = 0;
 	
 	for (count = 1; count <= 2; count++)
+	{
 		if (count == 2)
 		{
 			s = 'A';
@@ -24,7 +25,7 @@ int main(void)
 		for (c = s; c <= e; ++c)
 			putchar(c);
 		putchar('\n');
-	
+	}
 	return (0);
 }
 
