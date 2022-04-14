@@ -1,6 +1,6 @@
 /**
  * _isupper - checks if a character is upper or lower case
- *
+ * @c - prints int
  * Returns: 0 if lowercase 1 if uppercase
  */
 int _isupper(int c)
