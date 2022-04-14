@@ -6,4 +6,3 @@ int  _isdigit(char c);
 int  _putchar(char c);
 
 #endif
-

@@ -16,3 +16,4 @@ int main(void)
     _putchar("%c: %d\n", c, _isupper(c));
     return (0);
 }
+
