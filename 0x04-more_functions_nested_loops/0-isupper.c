@@ -14,12 +14,12 @@ int uppercase_max = 90;
 
 if ((c-lowercase_min) * (c-lowercase_max) <= 0)
 {
-	return 0;
+	return (0);
 }
 
 if ((c-uppercase_min) * (c-uppercase_max) <= 0)
 {
-	return 1;
+	return (1);
 }
 
 }
