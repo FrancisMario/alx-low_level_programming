@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * print_numbers - prints numbers.
+ * more_numbers - prints numbers.
  * Description: prints numbers from 9 - 0
  */
-void print_numbers(void)
+void more_numbers(void)
 {
 int i;
 
