@@ -5,23 +5,13 @@
  */
 void print_numbers(void)
 {
-print_lol(9);
-}
+int i;
 
-/**
- * print_lol - recurses printing a numbers
- * @v: pramater
- * Description: recurses printing a number till 0
- */
-void print_lol(int v)
+i = 0;
+
+for (i = 0; i <= 9; i++)
 {
-if (v >= 0)
-{
- _printchar(v);
- print_lol(v--);
+	_printchar(i);
 }
-else
-{
- _printchar('\n');
-}
+_printchar('\n');
 }
