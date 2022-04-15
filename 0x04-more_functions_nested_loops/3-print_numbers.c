@@ -5,18 +5,18 @@
  */
 void print_numbers(void)
 {
-	printLol(9);
+printLol(9);
 }
 
 void printLol(int v)
 {
-	if (!v > 0)
-	{
-		_printchar(v);
-		printLol(v--);
-	}
-	else
-	{
-	  _printchar('\n');
-  }
+if (!(v < 0))
+{
+_printchar(v);
+printLol(v--);
+}
+else
+{
+ _printchar('\n');
+}
 }
