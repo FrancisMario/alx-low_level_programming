@@ -1,19 +1,24 @@
 #include "main.h"
 /**
- * mul - multiplies two digits.
+ * print_numbers - prints numbers.
  * Description: prints numbers from 9 - 0
  */
 void print_numbers(void)
 {
-printLol(9);
+print_lol(9);
 }
 
-void printLol(int v)
+/**
+ * print_lol - recurses printing a numbers
+ * @v: pramater
+ * Description: recurses printing a number till 0
+ */
+void print_lol(int v)
 {
 if (v >= 0)
 {
  _printchar(v);
- printLol(v--);
+ print_lol(v--);
 }
 else
 {
