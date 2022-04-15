@@ -14,5 +14,8 @@ if ((c-digit_min) * (c-digit_max) <= 0)
 {
 	return (1);
 }
+else 
+{
 return (0);
+}
 }
