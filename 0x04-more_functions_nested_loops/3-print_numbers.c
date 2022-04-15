@@ -10,10 +10,10 @@ printLol(9);
 
 void printLol(int v)
 {
-if (!(v < 0))
+if (v >= 0)
 {
-_printchar(v);
-printLol(v--);
+ _printchar(v);
+ printLol(v--);
 }
 else
 {
