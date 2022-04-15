@@ -2,7 +2,7 @@
 /**
  * _isdigit - checks if a character is upper or lower case
  * @c: parameter
- * Returns: 0 if lowercase 1 if uppercase
+ * Return: 0 if lowercase 1 if uppercase
  */
 
 int _isdigit(int c)
